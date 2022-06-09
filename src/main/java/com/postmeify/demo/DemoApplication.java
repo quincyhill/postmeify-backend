@@ -23,6 +23,6 @@ public class DemoApplication {
 	@GetMapping
 	public List<Student> hello() {
 		return List.of(
-				new Student(1L, "Mark", "mark.some@mail.com", LocalDate.of(1990, Month.JANUARY, 5), 21));
+				new Student(1L, "Mark", "mark.some@mail.com", LocalDate.of(1990, Month.JANUARY, 5)));
 	}
 }

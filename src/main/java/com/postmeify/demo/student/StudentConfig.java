@@ -17,10 +17,10 @@ public class StudentConfig {
         // Java 8 Lambda expression
         return args -> {
             Student mark = new Student("Mark", "mark.some@mail.com", LocalDate.of(1998,
-                    Month.JANUARY, 5), 24);
+                    Month.JANUARY, 5));
 
             Student alex = new Student("Alex", "mark.some@mail.com", LocalDate.of(2000,
-                    Month.FEBRUARY, 16), 22);
+                    Month.FEBRUARY, 16));
 
             repository.saveAll(List.of(mark, alex));
         };
